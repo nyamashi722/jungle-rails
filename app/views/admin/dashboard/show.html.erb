@@ -1,2 +1,3 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Dashboard</h1>
+<p>There are currently <%= link_to @num_of_products, [:admin, :products] %> products </p>
+<p>There are currently <%= link_to @num_of_categories, [:admin, :products]%> categories of products</p>
