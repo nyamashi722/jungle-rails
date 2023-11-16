@@ -1,0 +1,18 @@
+// Place all the styles related to the About controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.nav-item.about-bottom-nav a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.nav-link.about-nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.nav-link.about-nav a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
