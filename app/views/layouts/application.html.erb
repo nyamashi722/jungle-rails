@@ -12,11 +12,15 @@
 <body>
 
   <%= render 'layouts/top_nav' %>
-
+  <% if flash[:notice] %>
+  <div class="notice"><%= flash[:notice] %></div>
+<% end %>
+<% if flash[:alert] %>
+  <div class="alert"><%= flash[:alert] %></div>
+<% end %>
   <main class="container">
     <%= yield %>
   </main>
-
   <%= yield :end_of_body %>
 
   <footer class="py-3 my-4">
