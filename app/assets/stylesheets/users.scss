@@ -1,0 +1,18 @@
+.nav-link.login {
+display: flex;
+gap: 15px;
+}
+
+.nav-link.login a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.nav-link.login a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.registration-form li {
+  list-style-type: none;
+}
+
